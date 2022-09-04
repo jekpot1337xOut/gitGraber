@@ -5,7 +5,6 @@ def initTokensMap():
     tokensList = []
     tokensCombo = []
     tokensList.append(Token('AMAZON_AWS', '([^A-Z0-9]|^)(AKIA)[A-Z0-9]{12,}',['EXAMPLE']))
-    tokensList.append(Token('TWILIO_API_KEY', 'SK[0-9a-fA-F]{32}'))
 
 ## Tokens which need two keys to be interesting ##
 
